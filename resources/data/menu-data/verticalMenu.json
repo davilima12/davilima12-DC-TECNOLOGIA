@@ -1,0 +1,64 @@
+{
+  "menu": [
+
+
+    {
+      "name": "Vendas",
+      "icon": "circle",
+      "slug": "",
+      "submenu": [
+        {
+          "url": "cadastrar/venda",
+          "name": "Cadastrar Venda",
+          "icon": "circle",
+          "slug": "cadastrar-venda"
+        },
+        {
+          "url": "visualizar/venda",
+          "name": "Visualizar Vendas",
+          "icon": "circle",
+          "slug": "visualizar-venda"
+        }
+      ]
+    },
+
+    {
+      "name": "Clientes",
+      "icon": "circle",
+      "slug": "",
+      "submenu": [
+        {
+          "url": "cadastrar/cliente",
+          "name": "Cadastrar Cliente",
+          "icon": "circle",
+          "slug": "cadastrar-cliente"
+        },
+        {
+          "url": "visualizar/cliente",
+          "name": "Visualizar Cliente",
+          "icon": "circle",
+          "slug": "visualizar-cliente"
+        }
+      ]
+    },
+    {
+      "name": "Produtos",
+      "icon": "circle",
+      "slug": "",
+      "submenu": [
+        {
+          "url": "cadastrar/produto",
+          "name": "Cadastrar Produto",
+          "icon": "circle",
+          "slug": "cadastrar-produto"
+        },
+        {
+          "url": "visualizar/produto",
+          "name": "Visualizar Produtos",
+          "icon": "circle",
+          "slug": "visualizar-produto"
+        }
+      ]
+    }
+  ]
+}

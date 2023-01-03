@@ -1,0 +1,51 @@
+{
+  "private": true,
+  "scripts": {
+    "dev": "npm run development",
+    "development": "mix",
+    "watch": "mix watch",
+    "watch-poll": "mix watch -- --watch-options-poll=1000",
+    "hot": "mix watch --hot",
+    "prod": "npm run production",
+    "production": "mix --production"
+  },
+  "dependencies": {
+    "bootstrap": "4.6.0",
+    "node-watch": "^0.7.3",
+    "npm-watch": "^0.11.0",
+    "watch": "^0.13.0",
+    "webpack": "^5.75.0"
+  },
+  "devDependencies": {
+    "axios": "^0.21",
+    "cross-env": "^5.2.1",
+    "jquery": "^3.2",
+    "laravel-mix": "^6.0.6",
+    "lodash": "^4.17.19",
+    "popper.js": "^1.12",
+    "postcss": "^8.1",
+    "resolve-url-loader": "^3.1.2",
+    "rtlcss": "^4.0.0",
+    "sass": "^1.22.12",
+    "sass-loader": "^8.0.0",
+    "webpack-cli": "^3.3.5"
+  },
+  "name": "testeinova",
+  "version": "1.0.0",
+  "main": "webpack.mix.js",
+  "directories": {
+    "test": "tests"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/davilima12/Supera-Inovacao-Tecnologia-teste.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/davilima12/Supera-Inovacao-Tecnologia-teste/issues"
+  },
+  "homepage": "https://github.com/davilima12/Supera-Inovacao-Tecnologia-teste#readme",
+  "description": ""
+}

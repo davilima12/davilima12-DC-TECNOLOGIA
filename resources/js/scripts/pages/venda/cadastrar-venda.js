@@ -143,6 +143,9 @@ $(function () {
           produto: {
             required: true,
           },
+          cliente: {
+            required: true,
+          },
           marca: {
             required: true,
           },
@@ -162,6 +165,9 @@ $(function () {
       rules: {
         produto: {
           required: true,
+        },
+        cliente:{
+          required:true,
         },
         marca: {
           required: true,

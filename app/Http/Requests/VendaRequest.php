@@ -28,6 +28,7 @@ class VendaRequest extends FormRequest
             'forma_pagamento_id' => 'numeric',
             'forma_pagamento_id' => 'required',
             'usuario_id' => 'required',
+            'cliente_id' => 'required',
             'usuario_id' => 'numeric',
 
         ];

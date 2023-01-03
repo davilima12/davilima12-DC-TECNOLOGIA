@@ -64,7 +64,7 @@
                             <div class="col-md-6 col-12">
                                 <div class="form-group">
                                     <label for="cliente">Cliente</label>
-                                    <select class="select2 form-control" id="cliente" name="cliente">
+                                    <select class="select2 form-control" required id="cliente" name="cliente">
                                     </select>
                                 </div>
                             </div>

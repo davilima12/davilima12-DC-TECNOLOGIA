@@ -24,7 +24,7 @@ class VendaRepository
         return $this->venda->create(
             [
                 'usuario_id' => $array['usuario_id'],
-                'cliente_id' => $array['cliente_id'],
+                'cliente_id' => $array['cliente_id'] ?? '',
                 'forma_pagamento_id' => $array['forma_pagamento_id'],
                 'quantidade_parcelas' => $array['qtdParcelas'] ?? 1,
                 'valor_total' => $this->produto->whereIn('id', $array['produto_id'])->sum('valor')

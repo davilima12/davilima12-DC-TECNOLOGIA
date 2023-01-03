@@ -29,8 +29,3 @@ php artisan serve
 php artisan migrate --seed
 
 ```
-```
-login: admin@gmail.com
-senha: admin
-
-```
